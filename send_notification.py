@@ -12,7 +12,7 @@ if __name__ == "__main__":
     with open(ruta, 'r') as archivo:
         mensaje = archivo.read()
 
-    token = "6929988814:AAHRrVSZp8c_dbqG4CYo6ofZS8pL-JFG62E"
-    chat_id = "662399950"
+    token = "6929988814:AAHRrVSZp8c_dbqG4CofZS8pL-JFG62E" #Ejemplo
+    chat_id = "662399XXXX" #Ejemplo
 
     enviar_notificacion(token, chat_id, mensaje)

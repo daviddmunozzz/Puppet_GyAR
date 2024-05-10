@@ -9,7 +9,7 @@ class send_notification{
     }
 
     exec { 'send_notification':
-    command => '/usr/bin/python3 /tmp/notify.py /etc/config/puppet_actions2.log',
+    command => '/usr/bin/python3 /tmp/notify.py /etc/config/puppet_actions.log',
     logoutput => true,
 
     }
